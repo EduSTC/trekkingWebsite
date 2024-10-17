@@ -6,8 +6,8 @@ Site desenvolvido pelos membros da equipe ROBOTA para controle e telemtria do ro
 
 ## Tecnologias
 
-Vue.js/Javascript para Frontend
-Python/Flask para Backend
+- Vue.js/Javascript para Frontend
+- Python/Flask para Backend
 
 ## Contribuição
 

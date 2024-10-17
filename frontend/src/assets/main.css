@@ -1,0 +1,83 @@
+@import './base.css';
+
+
+header {
+  border: 1px solid gray;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  padding: 0 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+#title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#header-title {
+  background-image: linear-gradient(to right, purple , orange);
+  color: transparent;
+  background-clip: text;
+}
+#header-sub-title {
+  color: white;
+}
+h1 {
+  font-size: 1.5rem;
+}
+#robota-logo {
+  width: 2rem;
+  height: 2rem;
+
+}
+#menu-container {
+  margin: 0 2rem;
+  display: flex;
+}
+#menu-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+a:hover {
+  background-clip: text;
+  background-image: linear-gradient(to right, purple , orange);
+  color: transparent;
+}
+#hamburguer-container {
+
+  display: none;
+}
+#hamburguer-container > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+#hamburguer-menu {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(22%) sepia(74%) saturate(1826%) hue-rotate(253deg) brightness(87%) contrast(97%);
+}
+
+@media (max-width: 1000px) {
+  #menu-container {
+    display: none;
+  }
+  #hamburguer-container {
+    display: flex;
+  }
+}

@@ -1,19 +1,13 @@
 # Website Trekking 2.0
 
-# -----------------------------------
-
 ## Sobre o Projeto
 
 Site desenvolvido pelos membros da equipe ROBOTA para controle e telemtria do robo de Trekking.
-
-# -----------------------------------
 
 ## Tecnologias
 
 Vue.js/Javascript para Frontend
 Python/Flask para Backend
-
-# -----------------------------------
 
 ## Contribuição
 

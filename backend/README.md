@@ -2,7 +2,7 @@
 
 ### Recomendado utilizar o virtualenv para criar um ambiente virtual python https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
 
-### Para instalar as dependencias utilize:
+### Para instalar as bibliotecas utilize:
 
 ```
 pip install -r requirements.txt

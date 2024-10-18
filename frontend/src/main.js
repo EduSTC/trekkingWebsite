@@ -10,4 +10,5 @@ app.use(router)
 
 app.mount('#app')
 
-const hamMenu = document.quer
+const hamMenu = document.querySelector('hamburguer-container');
+hamMenu.addEventListener('click',)

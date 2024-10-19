@@ -5,59 +5,15 @@ header {
   border-bottom: 1px solid gray;
   display: flex;
   padding: 0.5rem 2rem;
-  gap: 1rem;
   justify-content: center;
+  height: 4rem;
 
-  #title-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
 
-    #robota-logo {
-      width: 2rem;
-      height: 2rem; 
-    }
-    #header-title {
-      background-image: linear-gradient(to right, purple , orange);
-      color: transparent;
-      background-clip: text;
-    }
-    #header-sub-title {
-      color: white;
-    }
-  }
-
-  nav {
-    margin: 0 2rem;
-    display: flex;
-
-    ul {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      list-style-type: none;
-      padding: 0;
-    }
-    a {
-      text-decoration: none;
-      font-size: 20px;
-      color: white;
-    }
-    a:hover {
-      background-clip: text;
-      background-image: linear-gradient(to right, purple , orange);
-      color: transparent;
-    }
-    @media screen  and (max-width: 760px) {
-      display: none;
-    }
-    
-  }
-  
 }
 
 @media screen  and (max-width: 760px) {
   header {
+    justify-content: space-around;
   }
 
 }

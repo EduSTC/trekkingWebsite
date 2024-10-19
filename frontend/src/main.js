@@ -9,6 +9,3 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
-
-const hamMenu = document.querySelector('hamburguer-container');
-hamMenu.addEventListener('click',)
